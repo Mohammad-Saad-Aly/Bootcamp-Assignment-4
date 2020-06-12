@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header className={`App-header ${isMorning ? 'daylight' : ''}`}>
         <img src={logo} className="App-logo" alt="logo" />
-        <h3> {isMorning ? "Good Morning Saad" : "Good Night Saad"}</h3>
+        <h3> {isMorning ? "Good Morning Saad Ali" : "Good Night Saad Ali"}</h3>
         <Message counter={count} />
         <button onClick={() => setcount(++count)}>Increment Counter</button>
         <br />
